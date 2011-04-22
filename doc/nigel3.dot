@@ -1,0 +1,70 @@
+digraph nigel3 {
+	node [shape=box]
+		
+	Article [color=blue]
+	art_count [label="count", shape=ellipse]
+	art_type [label="type", shape=ellipse]
+	art_count -> Article
+	art_type -> Article
+	
+	Noun [color=blue]
+	noun_count [label="count", shape=ellipse]
+	noun_type [label="type", shape=ellipse]
+	noun_count -> Noun
+	noun_type -> Noun
+
+	Adj [color=blue]
+	order [shape=ellipse]
+	order -> Adj
+
+	Preposition [color=blue]
+			
+	PrepPhrase [color=red]
+	Preposition -> PrepPhrase
+	NP -> PrepPhrase
+	
+	NP [color=red]
+	np_elts [label="elts", shape=ellipse]
+	Article -> np_elts
+	Adj -> np_elts
+	Noun -> np_elts
+	np_elts -> NP
+	
+	Verb [color=blue]
+	verb_type [label="type", shape=ellipse]
+	tense [shape=ellipse]
+	person [shape=ellipse]
+	conjugates [shape=ellipse]
+	imperfect [shape=ellipse]
+	pp [shape=ellipse]
+	imperfect -> conjugates
+	pp -> conjugates
+	conjugates -> Verb
+	person -> Verb
+	tense -> Verb
+	verb_type -> Verb
+	
+	Subject [shape=ellipse]
+	PrepPhrase -> Subject
+	
+	DirectObject [shape=ellipse]
+	NP -> DirectObject
+	
+	IndirectObject [shape=ellipse]
+	PrepPhrase -> Object
+	
+	VerbPhrase [color=red]
+	p_elts [label="elts", shape=ellipse]
+	Verb -> p_elts -> VerbPhrase
+	DirectObject -> p_elts
+	IndirectObject -> p_elts
+	
+	Adverb [color=blue]
+	adv_type [label="type" shape=ellipse]
+	adv_type -> Adverb
+	Adverb -> p_elts
+	
+	Clause [color=red]
+	Subject -> Clause
+	VerbPhrase -> Clause
+}

@@ -1,0 +1,26 @@
+ToDo
+====
+
+Next Actions
+-----------
+
+* [A] Transform verb XML file
+* [A] Simple Clause: NP + verb, e.g. the black cat sits
+* [A] Conjugate verb for 3rd person singular, e.g. sit -> sits
+* [B] Handle objects, e.g. the cat sat on the mat
+* [B] Handle perfect tense, e.g. the cat has sat
+* [B] Add Adverb to Predicate
+* [C] Phrase, prepositions
+
+Done
+----
+
+* [A] Loading word lists
+* [A] Select a random entry
+* [A] Sort adjectives in a noun phrase
+* [C] Compound nouns, e.g. "pet shop owner"
+* [A] Basic verb
+* [B] Change article to determiner
+* [B] Trim the leading space from any text with an empty element
+   e.g. "a black cat" => " black cats"
+

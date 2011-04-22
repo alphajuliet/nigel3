@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Verbs xmlns="http://alphajuliet.com/ns/NigelMigraine">
+	
+	<Verb object-type="6">accompany
+		<Irregular imperfect="accompanied"/>
+		<DirectObject noun_object-type="person"/>
+		<IndirectObject preposition="to" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">amplify
+		<Irregular imperfect="amplified"/>
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="abstract"/>
+	</Verb>
+	
+	<Verb object-type="6">announce
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="to" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="3">answer
+		<DirectObject noun_object-type="person"/>
+		<IndirectObject preposition="to" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="4">arrive
+		<IndirectObject preposition="at" noun_object-type="place"/>
+		<IndirectObject preposition="from" noun_object-type="place"/>
+		<IndirectObject preposition="with" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="6">attract
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="to" noun_object-type="person"/>
+		<IndirectObject preposition="to" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="6">bash
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="with" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="1">be
+		<Irregular imperfect="was" perfect="been"/>
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="6">beat
+		<Irregular imperfect="beat" perfect="beaten"/>
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="with" noun_object-type="thing"/>
+	</Verb>
+		
+	<Verb object-type="2">belong
+		<IndirectObject preposition="to" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">bend
+		<Irregular imperfect="bent"/>
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="3">bite
+		<Irregular imperfect="bit" perfect="bitten"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="into" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="2">blow
+		<Irregular imperfect="blew" perfect="blown"/>
+		<IndirectObject preposition="up" noun_object-type="thing"/>
+	</Verb>
+	
+	
+	<Verb object-type="2">brag
+		<IndirectObject preposition="about" noun_object-type="thing"/>
+		<IndirectObject preposition="about" noun_object-type="abstract"/>
+		<IndirectObject preposition="to" noun_object-type="person"/>
+	</Verb>
+	
+	
+	<Verb object-type="1">burn
+		<Irregular perfect="burnt"/>
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="place"/>
+	</Verb>
+	
+	
+	<Verb object-type="6">buy
+		<Irregular imperfect="bought"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="from" noun_object-type="person"/>
+		<IndirectObject preposition="in" noun_object-type="place"/>
+	</Verb>
+	
+	
+	<Verb object-type="1">camouflage
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="place"/>
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="1">capture
+		<DirectObject noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">caress
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="1">carry
+		<Irregular imperfect="carried"/>
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="1">catch
+		<Irregular imperfect="caught"/>
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="1">cheat
+		<DirectObject noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">choose
+		<Irregular imperfect="chose" perfect="chosen"/>
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="abstract"/>
+	</Verb>
+	
+	<Verb object-type="5">climb
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="over" noun_object-type="thing"/>
+		<IndirectObject preposition="into" noun_object-type="thing"/>
+		<IndirectObject preposition="on" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="5">collect
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="from" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="2">come
+		<Irregular imperfect="came" perfect="come"/>
+		<IndirectObject preposition="from" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">compress
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">consider
+		<DirectObject noun_object-type="abstract"/>
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+
+	<Verb object-type="1">contemplate
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="abstract"/>
+		<DirectObject noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">corrupt
+		<DirectObject noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="0">cough
+	</Verb>
+	
+	<Verb object-type="1">cover
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">create
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="abstract"/>
+	</Verb>
+	
+	<Verb object-type="1">crop
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="2">cry
+		<Irregular imperfect="cried"/>
+		<IndirectObject preposition="to" noun_object-type="person"/>
+		<IndirectObject preposition="over" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="3">cut
+		<Irregular imperfect="cut"/>
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="person"/>
+		<IndirectObject preposition="into" noun_object-type="thing"/>
+		<IndirectObject preposition="from" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="2">dance
+		<IndirectObject preposition="with" noun_object-type="person"/>
+		<IndirectObject preposition="in" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">deify
+		<Irregular imperfect="deified"/>
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="abstract"/>
+	</Verb>
+	
+	<Verb object-type="2">delve
+		<IndirectObject preposition="into" noun_object-type="abstract"/>
+		<IndirectObject preposition="into" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="1">destroy
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="abstract"/>
+		<DirectObject noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">devour
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="3">dig
+		<Irregular imperfect="dug"/>
+		<DirectObject noun_object-type="place"/>
+		<IndirectObject preposition="under" noun_object-type="place"/>
+		<IndirectObject preposition="towards" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="1">disable
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="1">dissect
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="5">divert
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="towards" noun_object-type="place"/>
+		<IndirectObject preposition="towards" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="5">drag
+		<Irregular imperfect="dragged"/>
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="person"/>
+		<IndirectObject preposition="to" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">draw
+		<Irregular imperfect="drew" perfect="drawn"/>
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="2">dream
+		<Irregular imperfect="dreamt"/>
+		<IndirectObject preposition="about" noun_object-type="abstract"/>
+		<IndirectObject preposition="about" noun_object-type="thing"/>
+		<IndirectObject preposition="about" noun_object-type="person"/>
+		<IndirectObject preposition="about" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="2">drink
+		<Irregular imperfect="drank" perfect="drunk"/>
+		<IndirectObject preposition="from" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="5">drive
+		<Irregular imperfect="drove" perfect="driven"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="to" noun_object-type="place"/>
+		<IndirectObject preposition="from" noun_object-type="place"/>
+		<IndirectObject preposition="past" noun_object-type="place"/>
+		<IndirectObject preposition="into" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="1">dry
+		<Irregular imperfect="dried"/>
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">dump
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="3">eat
+		<Irregular imperfect="ate" perfect="eaten"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="from" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">embrace
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="abstract"/>
+	</Verb>
+	
+	<Verb object-type="1">energise
+		<DirectObject noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="3">end
+		<DirectObject noun_object-type="abstract"/>
+		<IndirectObject preposition="up~in" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">enjoy
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="abstract"/>
+	</Verb>
+	
+	<Verb object-type="5">enter
+		<DirectObject noun_object-type="place"/>
+		<IndirectObject preposition="from" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">envelop
+		<Irregular imperfect="enveloped"/>
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">examine
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">excuse
+		<DirectObject noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="0">exist
+	</Verb>
+	
+	<Verb object-type="1">explore
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="place"/>
+		<DirectObject noun_object-type="abstract"/>
+	</Verb>
+	
+	<Verb object-type="2">fall
+		<Irregular imperfect="fell" perfect="fallen"/>
+		<IndirectObject preposition="into" noun_object-type="place"/>
+		<IndirectObject preposition="into" noun_object-type="abstract"/>
+		<IndirectObject preposition="onto" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="2">feast
+		<IndirectObject preposition="on" noun_object-type="thing"/>
+		<IndirectObject preposition="on" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="6">feed
+		<Irregular imperfect="fed" perfect="fed"/>
+		<DirectObject noun_object-type="person"/>
+		<IndirectObject preposition="with" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="5">feel
+		<Irregular imperfect="felt"/>
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="abstract"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="like" noun_object-type="abstract"/>
+	</Verb>
+	
+	<Verb object-type="3">fight
+		<Irregular imperfect="fought"/>
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="abstract"/>
+		<IndirectObject preposition="against" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">find
+		<Irregular imperfect="found"/>
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="abstract"/>
+		<DirectObject noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="3">finish
+		<DirectObject noun_object-type="abstract"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="with" noun_object-type="thing"/>
+		<IndirectObject preposition="with" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">fix
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="2">flow
+		<IndirectObject preposition="into" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="4">fly
+		<Irregular imperfect="flew" perfect="flown"/>
+		<IndirectObject preposition="across" noun_object-type="place"/>
+		<IndirectObject preposition="to" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="5">follow
+		<DirectObject noun_object-type="person"/>
+		<IndirectObject preposition="to" noun_object-type="place"/>
+		<IndirectObject preposition="on~from" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="1">fondle
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="3">forget
+		<Irregular imperfect="forgot" perfect="forgotten"/>
+		<DirectObject noun_object-type="person"/>
+		<IndirectObject preposition="about" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="1">freeze
+		<Irregular imperfect="froze" perfect="frozen"/>
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="5">fuck
+		<DirectObject noun_object-type="person"/>
+		<IndirectObject preposition="with" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="5">give
+		<Irregular imperfect="gave" perfect="given"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="to" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="4">go
+		<Irregular imperfect="went" perfect="gone"/>
+		<IndirectObject preposition="to" noun_object-type="place"/>
+		<IndirectObject preposition="with" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">grasp
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="abstract"/>
+	</Verb>
+	
+	<Verb object-type="5">grope
+		<DirectObject noun_object-type="person"/>
+		<IndirectObject preposition="in" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="3">grow
+		<Irregular imperfect="grew" perfect="grown"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="into" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">handle
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="abstract"/>
+	</Verb>
+	
+	<Verb object-type="5">hang
+		<Irregular imperfect="hung"/>
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="from" noun_object-type="place"/>
+		<IndirectObject preposition="from" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="1">haunt
+		<DirectObject noun_object-type="place"/>
+		<DirectObject noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">have
+		<Irregular imperfect="had"/>
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="2">hear
+		<Irregular imperfect="heard"/>
+		<IndirectObject preposition="from" noun_object-type="person"/>
+		<IndirectObject preposition="about" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="1">help
+		<DirectObject noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="5">hide
+		<Irregular imperfect="hid" perfect="hidden"/>
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="under" noun_object-type="place"/>
+		<IndirectObject preposition="from" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="3">hold
+		<Irregular imperfect="held"/>
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="onto" noun_object-type="thing"/>
+		<IndirectObject preposition="onto" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="8">hover
+		<IndirectObject preposition="over" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">ignore
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="abstract"/>
+		<DirectObject noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">impress
+		<DirectObject noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">incinerate
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="5">incite
+		<DirectObject noun_object-type="person"/>
+		<IndirectObject preposition="to" noun_object-type="abstract"/>
+	</Verb>
+	
+	<Verb object-type="1">ingest
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="5">inject
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="into" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">injure
+		<DirectObject noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="5">insert
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="into" noun_object-type="thing"/>
+		<IndirectObject preposition="into" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">investigate
+		<DirectObject noun_object-type="abstract"/>
+		<DirectObject noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="5">join
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="person"/>
+		<IndirectObject preposition="to" noun_object-type="thing"/>
+		<IndirectObject preposition="to" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="3">jump
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="person"/>
+		<IndirectObject preposition="into" noun_object-type="abstract"/>
+		<IndirectObject preposition="into" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="6">kick
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="towards" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">kill
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="abstract"/>
+	</Verb>
+	
+	<Verb object-type="1">kiss
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="2">kneel
+		<Irregular perfect="knelt"/>
+		<IndirectObject preposition="at" noun_object-type="place"/>
+		<IndirectObject preposition="at" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="5">know
+		<Irregular imperfect="knew" perfect="known"/>
+		<DirectObject noun_object-type="person"/>
+		<IndirectObject preposition="from" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">lament
+		<DirectObject noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="2">laugh
+		<IndirectObject preposition="at" noun_object-type="person"/>
+		<IndirectObject preposition="at" noun_object-type="thing"/>
+		<IndirectObject preposition="about" noun_object-type="thing"/>
+		<IndirectObject preposition="in~front~of" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="5">launch
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="into" noun_object-type="place"/>
+		<IndirectObject preposition="from" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="5">lay
+		<Irregular perfect="lain"/>
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="in" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="2">learn
+		<Irregular perfect="learnt"/>
+		<IndirectObject preposition="about" noun_object-type="place"/>
+		<IndirectObject preposition="about" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="5">leave
+		<Irregular imperfect="left"/>
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="person"/>
+		<IndirectObject preposition="at" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">lick
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="2">lie
+		<Irregular imperfect="lay" perfect="laid"/>
+		<IndirectObject preposition="on" noun_object-type="thing"/>
+		<IndirectObject preposition="in" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">like
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="abstract"/>
+	</Verb>
+	
+	<Verb object-type="2">listen
+		<IndirectObject preposition="to" noun_object-type="person"/>
+		<IndirectObject preposition="to" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="2">live
+		<IndirectObject preposition="off" noun_object-type="person"/>
+		<IndirectObject preposition="in" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="2">look
+		<IndirectObject preposition="at" noun_object-type="person"/>
+		<IndirectObject preposition="at" noun_object-type="place"/>
+		<IndirectObject preposition="at" noun_object-type="thing"/>
+		<IndirectObject preposition="after" noun_object-type="person"/>
+		<IndirectObject preposition="for" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="5">lose
+		<Irregular imperfect="lost"/>
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="in" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">love
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="abstract"/>
+		<DirectObject noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">mangle
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="1">mark
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">measure
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="2">meditate
+		<IndirectObject preposition="about" noun_object-type="abstract"/>
+	</Verb>
+	
+	<Verb object-type="5">meet
+		<Irregular imperfect="met"/>
+		<DirectObject noun_object-type="person"/>
+		<IndirectObject preposition="at" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">miss
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="place"/>
+		<DirectObject noun_object-type="abstract"/>
+	</Verb>
+	
+	<Verb object-type="5">mix
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="into" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="2">moan
+		<IndirectObject preposition="about" noun_object-type="thing"/>
+		<IndirectObject preposition="to" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="6">move
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="to" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="5">nail
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="to" noun_object-type="thing"/>
+		<IndirectObject preposition="to" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">need
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="abstract"/>
+	</Verb>
+	
+	<Verb object-type="1">open
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="1">overshoot
+		<Irregular imperfect="overshot"/>
+		<DirectObject noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="5">paint
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="over" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="1">pass
+		<DirectObject noun_object-type="place"/>
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="abstract"/>
+	</Verb>
+	
+	<Verb object-type="5">peel
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="off" noun_object-type="thing"/>
+		<IndirectObject preposition="from" noun_object-type="thing"/>
+		<IndirectObject preposition="from" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="2">perform
+		<IndirectObject preposition="for" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">photograph
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="2">piss
+		<IndirectObject preposition="on" noun_object-type="thing"/>
+		<IndirectObject preposition="in" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="2">play
+		<IndirectObject preposition="in" noun_object-type="place"/>
+		<IndirectObject preposition="with" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">plumb
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="5">plunge
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="into" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">poison
+		<Irregular imperfect="poisoned"/>
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="abstract"/>
+		<DirectObject noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="5">poke
+		<DirectObject noun_object-type="person"/>
+		<IndirectObject preposition="with" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="2">pounce
+		<IndirectObject preposition="on" noun_object-type="thing"/>
+		<IndirectObject preposition="on" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="5">pound
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="against" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="5">press
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="against" noun_object-type="thing"/>
+		<IndirectObject preposition="against" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">program
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="5">provoke
+		<DirectObject noun_object-type="person"/>
+		<IndirectObject preposition="with" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="5">pull
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="out~of" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="5">pump
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="from" noun_object-type="place"/>
+		<IndirectObject preposition="to" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="5">puncture
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="by" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="5">push
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="person"/>
+		<IndirectObject preposition="from" noun_object-type="place"/>
+		<IndirectObject preposition="to" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">recognize
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="5">recognize
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="from" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">resist
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="abstract"/>
+	</Verb>
+	
+	<Verb object-type="5">ride
+		<Irregular imperfect="rode" perfect="ridden"/>
+		<DirectObject noun_object-type="person"/>
+		<IndirectObject preposition="from" noun_object-type="place"/>
+		<IndirectObject preposition="to" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="2">run
+		<Irregular imperfect="ran" perfect="run"/>
+		<IndirectObject preposition="to" noun_object-type="place"/>
+		<IndirectObject preposition="towards" noun_object-type="person"/>
+		<IndirectObject preposition="towards" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="5">save
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="from" noun_object-type="abstract"/>
+	</Verb>
+	
+	<Verb object-type="1">scrap
+		<Irregular imperfect="scrapped"/>
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="5">scrape
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="person"/>
+		<IndirectObject preposition="off" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="2">scream
+		<IndirectObject preposition="at" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">see
+		<Irregular imperfect="saw" perfect="seen"/>
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="place"/>
+		<DirectObject noun_object-type="abstract"/>
+    <IndirectObject preposition="into" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="5">seize
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="from" noun_object-type="person"/>
+		<IndirectObject preposition="from" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">set~up
+		<Irregular imperfect="set~up"/>
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="2">sit
+		<Irregular imperfect="sat"/>
+		<IndirectObject preposition="in" noun_object-type="place"/>
+		<IndirectObject preposition="on" noun_object-type="thing"/>
+		<IndirectObject preposition="with" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">slice
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	
+	<Verb object-type="8">sneeze
+		<IndirectObject preposition="on" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">spawn
+		<DirectObject noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="4">speak
+		<Irregular imperfect="spoke" perfect="spoken"/>
+		<IndirectObject preposition="to" noun_object-type="person"/>
+		<IndirectObject preposition="about" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="1">split
+		<Irregular imperfect="split"/>
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="1">spoil
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="5">spread
+		<Irregular imperfect="spread"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="over" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="4">stand
+		<Irregular imperfect="stood"/>
+		<IndirectObject preposition="at" noun_object-type="place"/>
+		<IndirectObject preposition="on" noun_object-type="thing"/>
+		<IndirectObject preposition="under" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="0">starve
+	</Verb>
+	
+	<Verb object-type="2">stare
+		<IndirectObject preposition="at" noun_object-type="person"/>
+		<IndirectObject preposition="at" noun_object-type="thing"/>
+		<IndirectObject preposition="at" noun_object-type="abstract"/>
+	</Verb>
+	
+	<Verb object-type="5">steal
+		<Irregular imperfect="stole" perfect="stolen"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="from" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">strike
+		<Irregular imperfect="struck"/>
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="1">stroke
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="1">subdue
+		<DirectObject noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">subvert
+		<DirectObject noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="2">succumb
+		<IndirectObject preposition="to" noun_object-type="abstract"/>
+		<IndirectObject preposition="to" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="1">suck
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="3">suffer
+		<DirectObject noun_object-type="abstract"/>
+		<IndirectObject preposition="from" noun_object-type="abstract"/>
+	</Verb>
+	
+	<Verb object-type="1">support
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="5">surprise
+		<DirectObject noun_object-type="person"/>
+		<IndirectObject preposition="with" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="2">surrender
+		<IndirectObject preposition="to" noun_object-type="person"/>
+		<IndirectObject preposition="to" noun_object-type="abstract"/>
+	</Verb>
+	
+	<Verb object-type="5">surround
+		<DirectObject noun_object-type="place"/>
+		<IndirectObject preposition="with" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="5">sweep
+		<Irregular imperfect="swept"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="across" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="2">swim
+		<Irregular imperfect="swam" perfect="swum"/>
+		<IndirectObject preposition="to" noun_object-type="place"/>
+		<IndirectObject preposition="towards" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="5">take
+		<Irregular imperfect="took" perfect="taken"/>
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="person"/>
+		<IndirectObject preposition="to" noun_object-type="place"/>
+	</Verb>
+	
+	<Verb object-type="1">taste
+		<DirectObject noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="1">teach
+		<Irregular imperfect="taught"/>
+		<DirectObject noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="5">tear
+		<Irregular imperfect="tore" perfect="torn"/>
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="from" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="5">telephone
+		<DirectObject noun_object-type="person"/>
+		<IndirectObject preposition="about" noun_object-type="thing"/>
+		<IndirectObject preposition="about" noun_object-type="abstract"/>
+	</Verb>
+	
+	<Verb object-type="2">think
+		<Irregular imperfect="thought"/>
+		<IndirectObject preposition="about" noun_object-type="thing"/>
+		<IndirectObject preposition="about" noun_object-type="person"/>
+		<IndirectObject preposition="of" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="1">trigger
+		<DirectObject noun_object-type="abstract"/>
+	</Verb>
+	
+	<Verb object-type="2">walk
+		<IndirectObject preposition="to" noun_object-type="place"/>
+		<IndirectObject preposition="towards" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="0">wank
+	</Verb>
+	
+	<Verb object-type="5">want
+		<DirectObject noun_object-type="thing"/>
+		<DirectObject noun_object-type="person"/>
+		<DirectObject noun_object-type="abstract"/>
+		<IndirectObject preposition="from" noun_object-type="person"/>
+	</Verb>
+	
+	<Verb object-type="2">wear
+		<Irregular imperfect="wore" perfect="worn"/>
+		<IndirectObject preposition="out" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="2">write
+		<Irregular imperfect="wrote" perfect="written"/>
+		<IndirectObject preposition="to" noun_object-type="person"/>
+		<IndirectObject preposition="about" noun_object-type="thing"/>
+	</Verb>
+	
+	<Verb object-type="6">yank
+		<DirectObject noun_object-type="thing"/>
+		<IndirectObject preposition="into" noun_object-type="place"/>
+	</Verb>
+
+</Verbs>
