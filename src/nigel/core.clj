@@ -95,7 +95,8 @@
   {:base :NP, :elts (map make-plural (:elts np))})
 ;(np (map make-plural (:elts np))))  ; NOTE <-- doesn't work.  I don't understand why.
 ;@todo Only pluralise the *last* noun in an NP, e.g. cat owner -> cat owners
-	
+;@todo Generate random noun-phrases
+
 ;-------------------------
 ;Preposition
 
