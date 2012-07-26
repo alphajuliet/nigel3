@@ -41,7 +41,8 @@
        (text n2) => "cats"
        (text (make-plural n1)) => "cats"
        (make-plural n2) => n2
-       (text (make-plural n3)) => "lasses")
+       (text (make-plural n3)) => "lasses"
+       (text (make-random {:base :Noun})) =not=> "")
   
 ;-------------------------
 ;Article
@@ -54,7 +55,8 @@
 ;-------------------------
 ;Adjective
 (facts "adjectives"
-       (text adj1) => "black")
+       (text adj1) => "black"
+       (:base (make-random {:base :Adjective})) :Adjective)
 
 ;-------------------------
 ;Preposition
@@ -67,7 +69,8 @@
        (text np1) => "a black cat"
        (text np2) => "a large black cat"
        (text np3) => "a large black cat owner"
-       (text (make-plural np1)) => "black cats")
+       (text (make-plural np1)) => "black cats"
+       (:base (make-random {:base :NP})) => :NP)
 
 ;-------------------------
 ;Prepositional phrase (PP)

@@ -34,7 +34,7 @@
 (defn get-vocab [tag-name]
   (for [e (load-vocab tag-name)]
     (into 
-      {:base tag-name :text (clojure.string/triml (first (:content e)))} 
+      {:base tag-name :text (clojure.string/trim (first (:content e)))} 
       (map parse-integer (:attrs e)))))
 
 ;Find a random word

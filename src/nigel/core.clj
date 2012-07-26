@@ -12,11 +12,13 @@
 ; Multimethod definitions
 (defmulti text :base)
 (defmulti make-plural :base)
+(defmulti make-random :base)
 
 ;-------------------------
 ;Default implementations
 (defmethod text :default [x] (:text x))
 (defmethod make-plural :default [x] x)
+(defmethod make-random :default [x] nil)
 
 ;-------------------------
 ;Utility functions
@@ -49,6 +51,9 @@
     (= "ss" (tail 2 (text n))) (noun (str (:text n) "es") :plural)
     true (noun (str (text n) "s") :plural)))
 
+(defmethod make-random :Noun [n]
+  (vocab/random :Noun))
+
 ;-------------------------
 ;Article
 
@@ -80,7 +85,9 @@
 ;@todo Work out how to use derive
 ;(derive :Adjective :X)
 (defmethod text :Adjective [a] (:text a))
-(defmethod make-plural :Adjective[a] a)
+(defmethod make-plural :Adjective [a] a)
+(defmethod make-random :Adjective [a]
+  (vocab/random :Adjective))
 
 ;-------------------------
 ;Noun phrase
@@ -96,14 +103,19 @@
 			
 (defn np [& coll] {:base :NP, :elts (flatten (sort-elts coll))})
 
-(defmethod text :NP [np]
-  (textify (:elts np)))
+(defmethod text :NP [x]
+  (textify (:elts x)))
 	
 (defmethod make-plural :NP [np]
   {:base :NP, :elts (map make-plural (:elts np))})
 ;(np (map make-plural (:elts np))))  ; NOTE <-- doesn't work.  I don't understand why.
 ;@todo Only pluralise the *last* noun in an NP, e.g. cat owner -> cat owners
-;@todo Generate random noun-phrases
+
+(defmethod make-random :NP [x]
+  (np 
+    (art :definite)
+    (make-random {:base :Adjective})
+    (make-random {:base :Noun})))
 
 ;-------------------------
 ;Preposition
@@ -160,6 +172,9 @@
     (assoc v :text "am" :person p)
     true v))
 
+(defmethod make-random :Verb [v]
+  (vocab/random :Verb))
+
 ;-------------------------
 ; Clause
 
@@ -172,15 +187,13 @@
 ;-------------------------
 ; Go!
 
-(defn random-clause []
-  (let [n (vocab/random :Noun)
-        v (vocab/random :Verb)]
-    (text (clause n v))))
+(defn random-np []
+  (text (make-random {:base :NP})))
 
 
 (defn -main [& args]
   (do
     (println "Main...")
-    (println (random-clause))))
+    (println (random-np))))
 	
 ;The End 
