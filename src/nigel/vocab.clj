@@ -4,7 +4,7 @@
 ; created: 2010-12
 ;------------------------------
 (ns nigel.vocab
-  (:require [clojure.contrib.string :as string]
+  (:require [clojure.string]
             [clojure.xml :as xml]))
 
 ;Relaxed string to integer conversion
@@ -34,7 +34,7 @@
 (defn get-vocab [tag-name]
   (for [e (load-vocab tag-name)]
     (into 
-      {:base tag-name :text (string/trim (first (:content e)))} 
+      {:base tag-name :text (clojure.string/triml (first (:content e)))} 
       (map parse-integer (:attrs e)))))
 
 ;Find a random word

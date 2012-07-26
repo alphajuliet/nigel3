@@ -6,7 +6,7 @@
 
 (ns nigel.core
   (:require [nigel.vocab :as vocab]
-            [clojure.contrib.string :as string]))
+            [clojure.string]))
 
 ;-------------------------
 ; Multimethod definitions
@@ -21,7 +21,15 @@
 ;-------------------------
 ;Utility functions
 (defn textify [coll]
-  (string/ltrim (string/join " " (map text coll))))
+  (clojure.string/triml (clojure.string/join " " (map text coll))))
+
+; Copied from clojure.contrib.string 1.2.0
+(defn ^String tail
+  "Returns the last n characters of s."
+  [n ^String s]
+  (if (< (count s) n)
+    s
+    (.substring s (- (count s) n))))
 
 ;-------------------------
 ;Noun
@@ -38,7 +46,7 @@
 (defmethod make-plural :Noun [n]
   (cond
     (= :plural (:count n)) n  ;if already plural 
-    (= "ss" (string/tail 2 (text n))) (noun (str (:text n) "es") :plural)
+    (= "ss" (tail 2 (text n))) (noun (str (:text n) "es") :plural)
     true (noun (str (text n) "s") :plural)))
 
 ;-------------------------
@@ -109,7 +117,7 @@
 ;-------------------------
 ;Prepositional phrase
 
-(defn pp [prep np] 
+(defn prep-phrase [prep np] 
   {:base :PP, :elts (list prep np)})
 (defmethod text :PP [pp] 
   (textify (:elts pp)))
@@ -135,7 +143,7 @@
 (defmethod make-plural :Verb [v]
   (cond
     ;(= :plural (:person v)) v  ;if already plural 
-    (= "ss" (string/tail 2 (text v))) (verb (str (:text v) "es"))
+    (= "ss" (tail 2 (text v))) (verb (str (:text v) "es"))
     true (verb (str (text v) "s"))))
 
 (defn change-tense [t v]
