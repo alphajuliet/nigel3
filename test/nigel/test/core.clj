@@ -12,6 +12,7 @@
             (def n3 (noun "lass" :singular))
             (def n4 (noun "owner" :singular :person))
             (def n5 (noun "mat"))
+            (def n6 (noun "apple"))
             (def d1 (art :indefinite))
             (def d2 (art :definite))
             (def d3 (art :indefinite :plural))
@@ -50,7 +51,10 @@
        (text d1) => "a"
        (text d2) => "the"
        (text d3) => ""
-       (make-plural d1) => (art :indefinite :plural))
+       (make-plural d1) => (art :indefinite :plural)
+       (:vowel-next d1) => false
+       (:vowel-next (match-article d1 (noun "apple"))) => true
+       (:vowel-next (match-article d1 n1)) => false)
 
 ;-------------------------
 ;Adjective
@@ -70,7 +74,8 @@
        (text np2) => "a large black cat"
        (text np3) => "a large black cat owner"
        (text (make-plural np1)) => "black cats"
-       (:base (make-random {:base :NP})) => :NP)
+       (:base (make-random {:base :NP})) => :NP
+       (text (np d1 n6)) => "an apple")
 
 ;-------------------------
 ;Prepositional phrase (PP)

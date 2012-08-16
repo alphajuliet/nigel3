@@ -58,23 +58,32 @@
 ;Article
 
 (defn art
-  ([type] {:base :Art :type type :count :singular})
-  ([type count] {:base :Art :type type :count count}))
+  ([type] {:base :Art :type type :count :singular :vowel-next false})
+  ([type count] {:base :Art :type type :count count :vowel-next false}))
+
+(defn match-article [art next-word]
+  "Change 'a' to 'an' if followed by a vowel"
+  (if (and
+        (= (:type art) :indefinite)
+        (re-find #"^[aeiou]" (:text next-word)))
+    (assoc art :vowel-next true)
+    art))
 
 (defmethod text :Art [a]
   (cond
     (= :definite (:type a)) "the"
-    (and 
-      (= :plural (:count a)) 
-      (not= :definite (:type a))) 
-    ""
+    (= :plural (:count a)) ""
+    (:vowel-next a) "an"
     true "a"))
 
 (defmethod make-plural :Art [a]
-  (cond
-    (not= :plural (:count a)) (art (:type a) :plural)
-    true a))
-	
+  (if (not= :plural (:count a)) 
+    (art (:type a) :plural)
+    a))
+
+(defmethod make-random :Art [a]
+  (art (rand-nth [:definite :indefinite])))
+
 ;-------------------------
 ;Adjective
 
@@ -95,13 +104,16 @@
 ;Return a list of NP elts sorted by an adjective's order. All other elements remain unchanged.
 (defn sort-elts [elts]
   (let [x (sort 
-            #(if (and (= :Adjective (:base %1)) (= :Adjective (:base %2))) 
+            #(if (and 
+                   (= :Adjective (:base %1)) 
+                   (= :Adjective (:base %2))) 
                (< (:order %1) (:order %2)) 
                0)
             elts)]
     x))
 			
-(defn np [& coll] {:base :NP, :elts (flatten (sort-elts coll))})
+(defn np [& coll] 
+  {:base :NP, :elts (flatten (sort-elts coll))})
 
 (defmethod text :NP [x]
   (textify (:elts x)))
@@ -110,10 +122,11 @@
   {:base :NP, :elts (map make-plural (:elts np))})
 ;(np (map make-plural (:elts np))))  ; NOTE <-- doesn't work.  I don't understand why.
 ;@todo Only pluralise the *last* noun in an NP, e.g. cat owner -> cat owners
+;@todo Match a/an article with next item
 
 (defmethod make-random :NP [x]
   (np 
-    (art :definite)
+    (make-random {:base :Art})
     (make-random {:base :Adjective})
     (make-random {:base :Noun})))
 
