@@ -12,7 +12,7 @@ This is a permanent work in progress.
 
 ## License
 
-Copyright (C) 2010 FIXME
+Copyright (C) 2012 Andrew Joyner
 Distributed under the Eclipse Public License, the same as Clojure.
 
 # Notes on nigel3 structures

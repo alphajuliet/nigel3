@@ -86,15 +86,15 @@
 ;-------------------------
 ;Verbs
 (facts "verbs"
-	(text v1) => "walk"
-	(text (make-plural v1)) => "walks"
-	(make-past-part "end") => "ended"
-	(text (change-tense :imperfect v1)) => "walked"
-	(text (change-tense :imperfect v2)) => "went"
-	(:person (change-person :sing3 v1)) => :sing3
-	(text (change-person :sing3 v1)) => "walks"
-	(text (change-person :plural v1)) => "walk"
-	(text (change-person :sing1 v3)) => "am")
+       (text v1) => "walk"
+       (text (make-plural v1)) => "walks"
+       (make-past-part "end") => "ended"
+       (text (change-tense :imperfect v1)) => "walked"
+       (text (change-tense :imperfect v2)) => "went"
+       (:person (change-person :sing3 v1)) => :sing3
+       (text (change-person :sing3 v1)) => "walks"
+       (text (change-person :plural v1)) => "walk"
+       (text (change-person :sing1 v3)) => "am")
 
 ;-------------------------
 ;Clauses

@@ -11,7 +11,8 @@
          (:text (first adjs)) => "american"
          (:order (first adjs)) => "3"
          (:text (first nouns)) => "DJ"
-         (:type (first nouns)) => "person"))
+         (:type (first nouns)) => "person"
+         (:text (first verbs)) => "accompany"))
 
 ;(> 0 (:order (vocab/random :Adjective))) => true 
 ; The End

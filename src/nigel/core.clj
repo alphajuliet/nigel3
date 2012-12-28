@@ -111,6 +111,8 @@
                0)
             elts)]
     x))
+
+
 			
 (defn np [& coll] 
   {:base :NP, :elts (flatten (sort-elts coll))})
@@ -197,16 +199,23 @@
 
 (defmethod text :Clause [c] (textify (:elts c)))
 	
+(defmethod make-random :Clause [c]
+  (clause
+    (make-random {:base :NP})
+    (change-tense :imperfect (make-random {:base :Verb}))))
 ;-------------------------
 ; Go!
 
 (defn random-np []
   (text (make-random {:base :NP})))
 
+(defn random-clause []
+  (text (make-random {:base :Clause})))
 
 (defn -main [& args]
   (do
     (println "Main...")
-    (println (random-np))))
+    (println (random-np))
+    (println (random-clause))))
 	
 ;The End 
